@@ -1,0 +1,279 @@
+.titleName {
+    text-align: center;
+}
+
+.card-title-left span {
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.card-content {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px;
+}
+
+.card-content-small {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.card-content .card-content-name {
+    font-weight: 600;
+    color: #6d6d6d;
+}
+
+.card-content .txtstatus {
+    color: #fff;
+    font-size: 11px;
+    background-color: green;
+    padding: 3px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.card-content .txtSend {
+    font-weight: 500;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.txtstatusdis {
+    color: #fff;
+    font-size: 11px;
+    padding: 3px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: red;
+}
+
+.txtinvalid {
+    font-size: 14px;
+    color: red;
+    font-style: italic;
+    display: none;
+}
+
+.card-content .txtcoin {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.card-send-coin {
+    margin-bottom: 15px;
+    display: none;
+}
+
+.card-view {
+    margin-bottom: 15px;
+    display: none;
+}
+
+.card-view-history {
+    margin-bottom: 15px;
+    display: none;
+}
+
+.card-coin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-header {
+    color: #fff;
+    /* background-color: #333; */
+    background-color: #2d77b8;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.card-header-two {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    line-height: 50px;
+    color: #fff;
+    /* background-color: #333; */
+    background-color: #2d77b8;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.card-header-two .txtFirst {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card-header-two .txtSecond {
+    margin-right: 20px;
+    font-size: 13px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.block-content {
+    color: #6d6d6d;
+}
+
+.blockdata {
+    height: 36px;
+    display: flex;
+    align-items: center;
+    border: solid 1px #c1c1c1;
+    border-radius: 6px;
+    background-color: #ececec;
+    margin-bottom: 15px;
+}
+
+.blockdata-name {
+    width: 80px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.blockdata-content {
+    border-left: solid 1px #c1c1c1;
+    height: 100%;
+    background-color: #fff;
+    width: 100%;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    line-height: 36px;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.hash {
+    color: #52c41a;
+    margin-left: 10px;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
+
+.hashborder {
+    border: solid 1px #36ce36;
+    background-color: #f6ffed;
+}
+
+.block {
+    display: flex;
+}
+.block span {
+    font-size: 13px;
+}
+
+.blockname {
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.xuathien {
+    display: block !important;
+}
+
+.changewallet {
+    border: solid 1px #e0dbdb;
+    padding: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.changewallet span {
+    font-size: 13px;
+    font-weight: 500;
+    color: #6d6d6d;
+    margin-left: 5px;
+}
+
+.changewallet:hover {
+    background-color: #ececec;
+}
+
+.active {
+    background-color: #a0a0a0;
+}
+
+.cardcreatewallet {
+    display: none;
+}
+
+.txtHistory {
+    font-size: 13px;
+    font-style: italic;
+    cursor: pointer;
+    margin-right: 7px;
+}
+
+.divHistory {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cardchangewallet {
+    display: none;
+}
+
+.andi {
+    display: none;
+}
+
+.txtNoti {
+    color: red;
+    font-weight: 500;
+}
+
+.xuathientxtinvalid {
+    display: block;
+}
+
+.card-history {
+    border: solid #dadada 1px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.card-history p {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-weight: 500;
+    color: gray;
+}
+
+.card-small-history {
+    display: flex;
+    align-items: center;
+}
+
+.historycoin {
+    font-size: 35px;
+    font-weight: bold;
+    color: #1fab05;
+}
+
+.txthistory {
+    color: #3d3df9;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.txtMiner {
+    font-size: 23px;
+    color: #000;
+}
+
+.txtMinerUn {
+    font-size: 23px;
+    color: #fd1d1d;
+}
